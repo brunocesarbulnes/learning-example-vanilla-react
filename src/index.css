@@ -1,0 +1,226 @@
+.dds__template--productivity, .dds__side-nav__wrapper {
+  min-height: 100vh;
+  height: auto;
+}
+
+
+/* NAVIGATION START */
+.dds__skip-navigation {
+  display: flex;
+  text-decoration: none;
+  background-color: #0063b8;
+  color: #ffffff;
+  position: absolute;
+  transform: translateY(-100%);
+  border-radius: 2px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  z-index: 1000;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  opacity: 0;
+  left: 0px;
+}
+
+.dds__skip-navigation:focus {
+  opacity: 1;
+  transform: translateY(0px);
+  border: 2px solid #ffffff;
+  outline-offset: 0px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  margin: 16px;
+  height: 40px;
+  position: absolute !important;
+}
+
+/* NAVIGATION END */
+
+/* HEADER START */
+.dds__action-menu__item>button span:not(.dds__icon) {
+  width: 100%;
+  padding-left: 8px;
+}
+
+.dds__masthead {
+  background-color: white;
+  border-bottom: 0.125rem solid #ffffff;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 10;
+  position: sticky;
+  top: 0px;
+  flex-wrap: wrap;
+}
+
+.dds__msthd-top-right-ctnr {
+  display: block;
+}
+
+.dds__masthead-left-ctnr {
+  width: 100%;
+}
+
+.dds__masthead .masthead-menu-logo {
+  display: flex;
+}
+
+.dellTechLogo {
+  height: 23px;
+  padding: 0;
+  width: 182px;
+}
+
+.dds__masthead .logo-link {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dds__masthead .logo-link:visited {
+  color: #0063b8;
+}
+
+.search-display {
+  display: flex;
+  width: 100%;
+}
+
+.search-display .search-form {
+  width: 38.25rem;
+  position: relative;
+}
+
+.search-display .icon-search {
+  position: absolute;
+  margin: 0.0625rem 0px 0.0625rem 0.5rem;
+  padding: 0.3125rem;
+  color: #636363;
+  font-size: 20px;
+  display: block;
+}
+
+.search-display .search-input {
+  width: 100%;
+  max-width: 38.25rem;
+  height: 2rem;
+  box-sizing: border-box;
+  border-radius: 0.125rem;
+  border: 0.0625rem solid #b6b6b6;
+  padding: 0.3125rem 0.3125rem 0.3125rem 2.625rem;
+  background: transparent;
+  color: #0e0e0e;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+.search-display .search-input:focus {
+  box-shadow: #ffffff 0px 0px 0px 0.125rem, #00468b 0px 0px 0px 0.25rem;
+  outline-offset: 0.125rem;
+  border: 0.0625rem solid #0672cb !important;
+  outline: #00468b solid 0.125rem !important;
+}
+
+.masthead-top-ctnr {
+  position: relative;
+}
+
+.masthead-menu-item {
+  color: #636363;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  font-weight: normal;
+  font-size: 0.875rem;
+  border: none;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.masthead-menu-item:hover,
+.masthead-menu-item:focus {
+  background-color: #f5f6f7 !important;
+  color: #0e0e0e !important;
+}
+
+.masthead-menu-item .icon {
+  color: #636363;
+  font-size: 1rem;
+  display: block;
+}
+
+.masthead-menu-item .icon-chevron {
+  font-size: 0.5rem;
+}
+
+/* HEADER END */
+
+/* FOOTER START */
+.dds__default-footer {
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  background-color: #f0f0f0;
+  flex-wrap: wrap;
+}
+
+.dds__default-footer>.dds__container {
+  widht: 100%;
+}
+
+.dds__default-footer>.dds__container ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.dds__default-footer>.dds__container li>a {
+  color: #636363;
+  text-decoration: none;
+  display: flex;
+}
+
+.dds__default-footer>.dds__container .footer-navigation li>a {
+  font-weight: 700;
+}
+
+.dds__default-footer>.dds__container li>a:hover {
+  color: #636363;
+  text-decoration: underline;
+}
+
+/* FOOTER END */
+
+
+/* CONTENT */
+
+.dds__neutral-gray {
+  color: #636363;
+}
+
+.dds__font-weight-700 {
+  font-weight: 700;
+}
+
+.dds__font-weight-500 {
+  font-weight: 500;
+}
+
+.dds__box {
+  background-color: #FFFFFF;
+  border: 1px solid #e1e1e1;
+  min-height: 100%;
+}
