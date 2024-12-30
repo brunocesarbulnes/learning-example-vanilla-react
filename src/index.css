@@ -166,44 +166,6 @@
 
 /* HEADER END */
 
-/* FOOTER START */
-.dds__default-footer {
-  position: relative;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  background-color: #f0f0f0;
-  flex-wrap: wrap;
-}
-
-.dds__default-footer>.dds__container {
-  width: 100%;
-}
-
-.dds__default-footer>.dds__container ul {
-  display: flex;
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-.dds__default-footer>.dds__container li>a {
-  color: #636363;
-  text-decoration: none;
-  display: flex;
-}
-
-.dds__default-footer>.dds__container .footer-navigation li>a {
-  font-weight: 700;
-}
-
-.dds__default-footer>.dds__container li>a:hover {
-  color: #636363;
-  text-decoration: underline;
-}
-
-/* FOOTER END */
-
 
 /* CONTENT */
 
